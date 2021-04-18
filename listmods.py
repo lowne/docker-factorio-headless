@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 
 # adapted from https://gist.github.com/TGNThump/ef55ed18851161ca23778b08dda86951
+#
+# EDIT: as of 1.1.14, this is broken, as level.dat is now split in mysterious ways
+# see https://forums.factorio.com/viewtopic.php?p=535682
+#
+
 
 from zipfile import ZipFile
 from struct import Struct
